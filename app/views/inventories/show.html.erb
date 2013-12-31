@@ -1,0 +1,8 @@
+<p id="notice"><%= notice %></p>
+
+Title:       <%= @item.title %> <br/>
+Description: <%= @item.description %> <br/>
+Quantity:    <%= @item.quantity %> <br/><br/>
+
+<%= link_to 'Edit', edit_inventory_path(@item) %> |
+<%= link_to 'Inventory', inventories_path %>
